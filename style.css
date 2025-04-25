@@ -1,0 +1,67 @@
+.balls {
+    border-radius: 50%;
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    top: 60%;
+    animation-name: jump;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+  #red {
+    background: red;
+    left: 25%;
+    animation-timing-function: linear;
+  }
+  #blue {
+    background: rgb(255, 0, 0);
+    left: 50%;
+    animation-timing-function: ease-out;
+  }
+  #green {
+    background: green;
+    left: 75%;
+    animation-timing-function: cubic-bezier(0.69, 0.1, 1, 0.1);
+  }
+
+      .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    body {
+        background-color: #c08931;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+div {
+        text-align: center;
+    }
+    h1 {
+        font-size: 2.5rem;
+        margin-bottom: 20px;
+    }
+    input[type="text"] {
+        width: 300px;
+        color: #100101;
+        padding: 10px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+    }
+    input[type="text"]:focus {
+        outline: none;
+        border-color: #38de0f;
+    }
+    input[type="submit"] {
+        background-color: #0472e7;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: large;
+        ;
+    }
+    
